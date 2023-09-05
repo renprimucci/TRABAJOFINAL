@@ -1,0 +1,638 @@
+
+/* INDEX */
+
+    /* HEADER */
+    header {
+        background-color: blueviolet;
+    }
+        .cabecera {
+         display:grid;
+         grid-template-columns: 1fr 4fr;
+         list-style: none;
+        }
+        .header .titulo {
+        color:white;
+        padding-left: 4%;
+        background-color: blueviolet;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .logo-goats {
+            width: 20%;
+            padding-top: 10px;
+            list-style: none;
+            
+        }
+        .list-items {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            width: 98%;
+            padding: 1%;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+           }
+
+        .lomasvendido {
+            text-decoration: none;
+            color: black;
+        }
+        .ofertasheader {
+            text-decoration: none;
+            color: black;
+        }
+
+
+
+
+    /* MAIN */
+    .main {
+    background-image: url(../img/fondoblanco.avif);
+    
+    }
+        .subtitulo-nuevoslanzamientos, .subtitulo-ofertas, .subtitulo-lasmasvendidas {
+            color: white;
+            background-color: rgb(138, 43, 226);
+            padding: 6px;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .nuevos-lanzamientos {
+            
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+            color: black;
+            font-weight: 600;
+            background-color: beige;
+            text-align: center;
+           }
+    
+           .ofertas {
+            
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+            color: black;
+            font-weight: 600;
+            background-color: beige;
+            text-align: center;
+           }
+    
+           .las-mas-vendidas {
+            
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+            background-color: beige;
+            
+          }   
+
+          .articulocamiseta:hover {
+            transform: scale(1.1);
+            border: 3px solid rgb(138, 43, 226);
+        }
+
+        .lista-autores {
+            display: flex;
+            list-style: none;
+            display: grid;
+            grid-template-columns: repeat(6, 1fr);
+            padding:  1%;
+            font-size: 120%;
+            font-weight: 600;
+            text-align: center;
+            color: black;
+        }
+
+ /* ASIDE */
+        .aside {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            margin: 1%;
+        }
+        .videofutbol {
+           display: grid;
+           grid-template-columns: 1fr 1fr 1fr;
+        }
+
+/* FOOTER*/
+        .footer {
+            color: black;
+            background-color:  rgb(228, 170, 64);
+            margin-top: 1em;
+         }
+        .footer-horarios {
+            color: black;
+            background-color:  rgb(228, 170, 64);
+            margin-top: 5%;
+        }
+        .footer-compra { 
+            color: black;
+            background-color:  rgb(228, 170, 64);
+            margin-top: 10%;
+        }
+
+
+            .lista-footer {
+                width: 96%;
+                margin: 0%;
+                list-style: none;
+                display: grid;
+                grid-template-columns: 2fr 2fr 2fr 1fr 1fr 1fr;
+                padding: 1%;
+            
+            }
+            .contacto {
+                color: black;
+                text-decoration: none;
+                
+          
+            }
+            .horarios-atencion {
+                color: black;
+                text-decoration: none;
+            
+            }
+            .instagram {
+                width: 50px;
+             
+            }
+            .tiktok {
+                width: 50px;
+            }
+            .youtube {
+                width: 50px;
+            }
+
+ /* HORARIOS */
+        .tabla {
+            background-color: beige;
+            margin: 3%;
+        }
+        .dias {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-weight: bolder;
+            text-align: center;
+                  
+         }
+        .horarios {
+            color: black;
+            background-color: rgb(200, 200, 200);
+            font-style: bolder;
+            text-align: center;
+        }
+        .titulohorarios {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            font-style: bolder;
+            padding: 4%;
+        }
+        .titulodias {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            padding: 4%;
+        }
+/*DERECHOS RESERVADOS*/
+
+        .derechosreservados {
+        text-decoration: none;
+        color: black;
+        }
+        
+        .titulo-autores {
+            color:white;
+            padding-left: 4%;
+            background-color: blueviolet;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+
+
+/*FORMULARIO*/
+        .formulario {
+        color: black;
+        background-color: beige;
+        margin: 2%;
+        padding: 3%;
+        border: 5px solid black;
+         }
+         .header .titulo-contacto {
+            color:white;
+            background-color: blueviolet;
+            width: 80%;
+            padding-top: 1%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 180%;
+         }
+         .list-items-contacto {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            list-style: none;
+             display: grid;
+             grid-template-columns: repeat(4, 1fr);
+             width: 100%;
+             padding: 1%;
+        }
+        
+        .listacompra {
+            color: black;
+            margin: 2%;
+            padding: 3%;
+            border: 5px solid black;
+            list-style: none;
+            font-size: 120%;
+            color: black;
+            font-weight: 600;
+        }
+        
+        .list-items-camisetas {
+            color: black;
+            background-color: rgb(228, 170, 64);
+            list-style: none;
+             display: grid;
+             grid-template-columns: repeat(4, 1fr);
+             width: 100%;
+             padding: 1%;
+        }
+
+        .botonparacomprar {
+            color: white;
+                text-decoration: none;
+        }
+        .titulo-compra {
+            width: 80%;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 180%;
+            text-align: center;
+        }
+        .emoji {
+           display: grid;
+           grid-template-columns: 1fr 1fr;
+           align-items: center;
+           justify-content: center;
+           padding: 5%;
+           margin: 3%;
+           list-style: none;
+        }
+        .tablayumero {
+            display: grid;
+            grid-template-columns: 4fr 1fr 1fr;
+            align-items: center;
+            justify-content: center;
+            padding: 5%;
+            margin: 3%;
+            list-style: none;
+        }
+        .talles {
+            color: black;
+            text-decoration: none;
+        }
+ /* @media PC grande */     
+@media (max-width: 1850px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    padding-top: 4%;
+
+    }
+
+    .logo-goats {
+        width: 30%;
+       
+        
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+    }
+
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+
+    }
+
+    .ofertas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+    .las-mas-vendidas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(4, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+    .lista-autores {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+/* @media PC */
+@media (max-width: 1250px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    width: 70%;
+
+    }
+
+    .logo-goats {
+        width: 30%;
+       
+        
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+    }
+    .videofutbol {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+     }
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+
+    }
+
+    .ofertas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+
+    .las-mas-vendidas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+    .lista-autores {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(6, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+
+ /* @media TABLETS */
+@media (max-width: 1025px) {
+
+    /* HEADER */
+
+ .cabecera {
+     display:grid;
+     grid-template-columns: 1fr 2fr;
+     list-style: none;
+
+    }
+    .header .titulo {
+    color:white;
+    background-color: blueviolet;
+    width: 70%;
+    }
+
+    .logo-goats {
+        width: 30%;
+        padding-top: 10%;
+       
+    }
+    .list-items {
+        color: black;
+        background-color: rgb(228, 170, 64);
+        list-style: none;
+         display: grid;
+         grid-template-columns: repeat(4, 1fr);
+    }
+    .videofutbol {
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+    /* MAIN */
+    .nuevos-lanzamientos {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .ofertas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+
+    }
+
+    .las-mas-vendidas {
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(2, 1fr);
+     padding:  1%;
+     font-size: 120%;
+     background-color: beige;
+    }
+    .lista-autores {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+   /* FOOTER*/
+
+    .lista-footer {
+     width: 98%;
+     margin: 0%;
+     
+     list-style: none;
+     display: grid;
+     grid-template-columns: repeat(3, 1fr);
+     padding:  1%;
+     font-size: 100%;
+     text-align: center;
+ }
+ 
+}
+/* @media CELULARES */
+@media (max-width: 650px) {
+
+       /* HEADER */
+
+    .cabecera {
+        display:grid;
+        grid-template-columns: 1fr 1fr;
+        list-style: none;
+
+       }
+       .header .titulo {
+       color:white;
+       background-color: blueviolet;
+       font-size: 90%;
+       }
+
+       .logo-goats {
+           width: 20%;
+          
+           
+       }
+       .list-items {
+           color: black;
+           background-color: rgb(228, 170, 64);
+           list-style: none;
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+       }
+       .videofutbol {
+        display: grid;
+        grid-template-columns: 1fr;
+     }
+
+       /* MAIN */
+       .nuevos-lanzamientos {
+        
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+
+       }
+
+       .ofertas {
+        
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+       }
+
+       .las-mas-vendidas {
+        
+        list-style: none;
+        display: grid;
+        grid-template-columns: 1fr;
+        padding:  1%;
+        font-size: 120%;
+        background-color: beige;
+       }
+
+
+      /* FOOTER*/
+
+       .lista-footer {
+        width: 98%;
+        margin: 0%;
+        
+        list-style: none;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        padding:  1%;
+        font-size: 100%;
+        text-align: center;
+    }
+
+    
+}
